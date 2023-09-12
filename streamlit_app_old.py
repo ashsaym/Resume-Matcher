@@ -272,6 +272,20 @@ st.write(fig)
 
 avs.add_vertical_space(3)
 
+config_file_path = config_path + "/config.yml"
+if os.path.exists(config_file_path):
+    config_data = read_config(config_file_path)
+    if config_data:
+        print("Config file parsed successfully:")
+        resume_string = ' '.join(selected_file["extracted_keywords"])
+        jd_string = ' '.join(selected_jd["extracted_keywords"])
+        result = get_similarity_score(resume_string, jd_string)
+        similarity_score = result[0]["score"]
+        st.write("Similarity Score obtained for the resume and job description is:", similarity_score)
+else:
+    print("Config file does not exist.")
+
+
 st.title(':blue[Resume Matcher]')
 st.subheader(
     'Free and Open Source ATS to help your resume pass the screening stage.')
