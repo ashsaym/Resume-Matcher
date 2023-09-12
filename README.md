@@ -27,6 +27,19 @@
 
 <div align="center">
 
+## Resume Matcher needs your support 🙏
+
+Hi there, I'm Saurabh and I need your support to continue the development of this project. As we're growing in complexity and adding new features. I'd appreciate if some of you could donate enough money to get me a laptop capable to handling the load of a full-stack application. 
+
+I'm currently at my limits in here. 🙏😢
+
+[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/srbhr)
+[![Sponsor on GitHub](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white)](https://github.com/sponsors/srbhr)
+
+</div>
+
+<div align="center">
+
 ## How does it work?
 
 </div>
@@ -173,6 +186,8 @@ Follow these steps to set up the environment and run the application.
 
 ### Cohere and Qdrant
 
+#### **Note🔺: Cohere API Keys are behind a Credit Card and I'm dropping support for vector score. I'm working on a fix for this. Skip this part 👇** 
+
 1.  Visit [Cohere website registration](https://dashboard.cohere.ai/welcome/register) and create an account.
 2.  Go to API keys and copy your cohere api key.
 3.  Visit [Qdrant website](https://cloud.qdrant.io/) and create an account.
@@ -190,7 +205,7 @@ Follow these steps to set up the environment and run the application.
     ```
 8.  Please replace your values without any quotes.
 
-*Note: Please make sure that Qdrant_client's version is higher than v1.1*
+*Note: Qdrant Vector Scoring is dropped for a temporary basis*
 
 <br/>
 
@@ -226,16 +241,6 @@ Upcoming:
 
 <br/>
 
-<div align="center">
-
-## Enhance Open-Source Development: Donate and Be Part of Our Journey!
-
-[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/srbhr)
-[![Sponsor on GitHub](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white)](https://github.com/sponsors/srbhr)
-
-</div>
-
----
 
 ### Heads Up! 📝
 
